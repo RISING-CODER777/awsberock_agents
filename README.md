@@ -14,7 +14,7 @@ Welcome to the repository for managing library tasks with Amazon Bedrock Agents.
 
 ## 🛠️ How to Build and Deploy
 
-For detailed instructions on setting up and configuring your Amazon Bedrock Agents, including deploying Lambda functions and configuring the knowledge base, please refer to the comprehensive guide on my blog: [Explore Amazon Bedrock Agents Like a Pro](#)
+For detailed instructions on setting up and configuring your Amazon Bedrock Agents, including deploying Lambda functions and configuring the knowledge base, please refer to the comprehensive guide on my blog: [Explore Amazon Bedrock Agents Like a Pro](https://medium.com/@Gowtham_CP/explore-amazon-bedrock-agents-like-a-pro-a-comprehensive-guide-to-mastering-efficient-c7fc5c17d6ad)
 
 ## 📜 Additional Resources
 
