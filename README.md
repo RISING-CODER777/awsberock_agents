@@ -18,9 +18,10 @@ For detailed instructions on setting up and configuring your Amazon Bedrock Agen
 
 ## 📜 Additional Resources
 
-- [Amazon Bedrock Documentation](https://docs.aws.amazon.com/bedrock)
-- [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda)
-- [Amazon S3 Documentation](https://docs.aws.amazon.com/s3)
+- [Amazon Bedrock Agents: Create and Configure — AWS Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create-configure.html)
+- [Amazon Bedrock Agents: How They Work — AWS Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how-they-work.html)
+- [Amazon Bedrock Knowledge Base: Create — AWS Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-create.html)
+- [Amazon Bedrock Knowledge Base: How It Works — AWS Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-how-it-works.html)
 
 ## 💬 Feedback and Contributions
 
