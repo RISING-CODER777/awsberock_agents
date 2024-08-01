@@ -1,0 +1,97 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Library Management System",
+        "version": "1.0.0",
+        "description": "APIs for managing book inventory in a library"
+    },
+    "paths": {
+        "/GetBooksInventory": {
+            "get": {
+                "summary": "Gets books inventory",
+                "description": "Retrieves the list of books and their available copies",
+                "operationId": "getBooksInventory",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "Returns the inventory of all books",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "bookId": {
+                                                "type": "string",
+                                                "description": "Book ID"
+                                            },
+                                            "title": {
+                                                "type": "string",
+                                                "description": "Book Title"
+                                            },
+                                            "availableCopies": {
+                                                "type": "number",
+                                                "description": "Number of available copies"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/RestockBook": {
+            "post": {
+                "summary": "Creates a Book Restock Order",
+                "description": "Creates an order to restock books in the library",
+                "operationId": "restockBook",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "required": ["bookId", "quantity"],
+                                "properties": {
+                                    "bookId": {
+                                        "type": "string",
+                                        "description": "Book ID"
+                                    },
+                                    "quantity": {
+                                        "type": "number",
+                                        "description": "Quantity to restock"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Returns the status of the book restock order",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "string",
+                                            "description": "Status of the book restock order - Success or Failure"
+                                        },
+                                        "message": {
+                                            "type": "string",
+                                            "description": "Additional information about the restock operation"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

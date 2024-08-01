@@ -1,0 +1,11 @@
+BookID,Title,Author,Genre,PublicationYear,ISBN,AvailableCopies,Price
+B001,The Silent Patient,Alex Michaelides,Thriller,2019,9781250301697,3,$14.99
+B002,Educated,Tara Westover,Memoir,2018,9780399590504,2,$16.99
+B003,The Great Gatsby,F. Scott Fitzgerald,Fiction,1925,9780743273565,5,$10.99
+B004,To Kill a Mockingbird,Harper Lee,Fiction,1960,9780060935467,4,$12.99
+B005,1984,George Orwell,Dystopian,1949,9780451524935,6,$9.99
+B006,The Catcher in the Rye,J.D. Salinger,Fiction,1951,9780316769488,3,$13.99
+B007,The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,2016,9780062457714,7,$15.99
+B008,Sapiens: A Brief History of Humankind,Yuval Noah Harari,Non-Fiction,2011,9780062316110,4,$18.99
+B009,The Hobbit,J.R.R. Tolkien,Fantasy,1937,9780345339683,2,$11.99
+B010,Becoming,Michelle Obama,Autobiography,2018,9781524763138,5,$17.99
